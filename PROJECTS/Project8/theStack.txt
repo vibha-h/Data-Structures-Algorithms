@@ -1,0 +1,39 @@
+
+
+
+........................................................................................
+moveTower( 3 A B C) // <= the incoming args
+  if (1st arg -1)  == 1) then move disk from 2nd arg to 3rd and then RETURN
+
+  moveTower( 1st arg -1, 2nd arg, 4th arg, 3rd arg, ) // swap 3rd & 4th befor calling  
+  move disk from top of 2nd arg to top of 3rd 
+  #moveTower(1st arg -1,  4th arg, 3rd arg, 2nd arg  ) // swap 2nd & 4th befor calling 
+........................................................................................
+MAIN
+  moveTower( 3,    A,    B,     C );
+             1st   2nd   3rd    4th
+             arg   arg   arg    arg
+              
+================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
